@@ -10,6 +10,8 @@
     "bun-types": "^0.5.0"
   },
   "dependencies": {
+    "@elysiajs/html": "^0.1.1",
+    "@elysiajs/swagger": "^0.4.0",
     "elysia": "^0.4.15"
   }
 }
