@@ -16,13 +16,13 @@
       <li>
         <div class="flex flex-row">
           <div
-            class="flex justify-between items-center p-2 group cursor-pointer hover:bg-neutral-200 hover:dark:bg-neutral-700 transition-colors duration-200 rounded-lg w-full"
+            class="flex justify-between  items-center p-2 group cursor-pointer hover:bg-neutral-200 hover:dark:bg-neutral-700 transition-colors duration-200 rounded-lg w-full"
           >
             <div
-              class="flex items-center justify-center p-2 rounded-lg bg-neutral-700 group-hover:bg-neutral-700 gap-2 pr-5"
+              class="flex items-center justify-center place-items-center p-2 rounded-lg bg-neutral-700 group-hover:bg-neutral-700 gap-2 pr-5"
             >
               <div class="p-2 rounded-full bg-neutral-600">
-                <img class="w-6 h-6" src="favicon.png" alt="balls" />
+                <img class="w-6 h-6" src="user.svg" alt="name" />
               </div>
               <span
                 class="text-md font-bold text-neutral-700 dark:text-neutral-200"
@@ -34,7 +34,7 @@
               <div
                 class="mr-2 p-2 rounded-full bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 group-hover:bg-neutral-300 dark:group-hover:bg-neutral-600 transition-colors duration-200"
               >
-                <img class="w-6 h-6" src="favicon.png" alt="balls" />
+                <img class="w-6 h-6" src="phone.svg" alt="phone number" />
               </div>
               <span
                 class="text-sm font-medium text-neutral-700 dark:text-neutral-200"
@@ -46,7 +46,7 @@
               <div
                 class="mr-2 p-2 rounded-full bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 group-hover:bg-neutral-300 dark:group-hover:bg-neutral-600 transition-colors duration-200"
               >
-                <img class="w-6 h-6" src="favicon.png" alt="balls" />
+                <img class="w-6 h-6" src="mail.svg" alt="email" />
               </div>
               <span
                 class="text-sm font-medium text-neutral-700 dark:text-neutral-200"
