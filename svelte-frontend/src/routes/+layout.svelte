@@ -1,1 +1,5 @@
-<div style="background: #CCC"><slot /></div>
+<script>
+  import "../app.css";
+</script>
+
+<slot />

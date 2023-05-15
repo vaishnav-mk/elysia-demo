@@ -1,10 +1,14 @@
 import { Elysia, t } from "elysia";
 import { ContactDB } from "./db.js";
-import { html } from "@elysiajs/html";
+import { cors } from "@elysiajs/cors";
 import { swagger } from "@elysiajs/swagger";
 
 const app = new Elysia()
-  .use(html())
+  .use(
+    cors({
+      origin: "*",
+    })
+  )
   .use(
     swagger({
       documentation: {

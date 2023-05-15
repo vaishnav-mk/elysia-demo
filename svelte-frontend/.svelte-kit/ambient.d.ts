@@ -28,7 +28,7 @@
 declare module '$env/static/private' {
 	export const SHELL: string;
 	export const LSCOLORS: string;
-	export const WINDOWID: string;
+	export const SESSION_MANAGER: string;
 	export const USER_ZDOTDIR: string;
 	export const QT_SCREEN_SCALE_FACTORS: string;
 	export const COLORTERM: string;
@@ -39,7 +39,6 @@ declare module '$env/static/private' {
 	export const _P9K_TTY: string;
 	export const NODE: string;
 	export const P9K_TTY: string;
-	export const SHELL_SESSION_ID: string;
 	export const npm_config_local_prefix: string;
 	export const DESKTOP_SESSION: string;
 	export const GTK_RC_FILES: string;
@@ -62,13 +61,10 @@ declare module '$env/static/private' {
 	export const LANG: string;
 	export const LS_COLORS: string;
 	export const XDG_CURRENT_DESKTOP: string;
-	export const KONSOLE_DBUS_SERVICE: string;
 	export const npm_package_version: string;
-	export const KONSOLE_DBUS_SESSION: string;
 	export const GIT_ASKPASS: string;
 	export const XDG_SEAT_PATH: string;
 	export const INVOCATION_ID: string;
-	export const KONSOLE_VERSION: string;
 	export const MANAGERPID: string;
 	export const CHROME_DESKTOP: string;
 	export const KDE_SESSION_UID: string;
@@ -80,7 +76,6 @@ declare module '$env/static/private' {
 	export const ZDOTDIR: string;
 	export const USER: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
-	export const COLORFGBG: string;
 	export const KDE_SESSION_VERSION: string;
 	export const PAM_KWALLET5_LOGIN: string;
 	export const DISPLAY: string;
@@ -108,7 +103,6 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const OLDPWD: string;
 	export const TERM_PROGRAM: string;
-	export const KONSOLE_DBUS_WINDOW: string;
 	export const NODE_ENV: string;
 }
 
@@ -141,7 +135,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		SHELL: string;
 		LSCOLORS: string;
-		WINDOWID: string;
+		SESSION_MANAGER: string;
 		USER_ZDOTDIR: string;
 		QT_SCREEN_SCALE_FACTORS: string;
 		COLORTERM: string;
@@ -152,7 +146,6 @@ declare module '$env/dynamic/private' {
 		_P9K_TTY: string;
 		NODE: string;
 		P9K_TTY: string;
-		SHELL_SESSION_ID: string;
 		npm_config_local_prefix: string;
 		DESKTOP_SESSION: string;
 		GTK_RC_FILES: string;
@@ -175,13 +168,10 @@ declare module '$env/dynamic/private' {
 		LANG: string;
 		LS_COLORS: string;
 		XDG_CURRENT_DESKTOP: string;
-		KONSOLE_DBUS_SERVICE: string;
 		npm_package_version: string;
-		KONSOLE_DBUS_SESSION: string;
 		GIT_ASKPASS: string;
 		XDG_SEAT_PATH: string;
 		INVOCATION_ID: string;
-		KONSOLE_VERSION: string;
 		MANAGERPID: string;
 		CHROME_DESKTOP: string;
 		KDE_SESSION_UID: string;
@@ -193,7 +183,6 @@ declare module '$env/dynamic/private' {
 		ZDOTDIR: string;
 		USER: string;
 		VSCODE_GIT_IPC_HANDLE: string;
-		COLORFGBG: string;
 		KDE_SESSION_VERSION: string;
 		PAM_KWALLET5_LOGIN: string;
 		DISPLAY: string;
@@ -221,7 +210,6 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		OLDPWD: string;
 		TERM_PROGRAM: string;
-		KONSOLE_DBUS_WINDOW: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
